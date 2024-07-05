@@ -1,5 +1,5 @@
 {
-  "homepage":"https://saurabhp0007.github.io/Portfolio" ,
+  "homepage": "https://saurabhp0007.github.io/Portfolio",
   "name": "saurabh-tutorial",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,6 @@
     "dev": "vite --host",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -19,5 +18,8 @@
     "lil-gui": "^0.16.1",
     "three": "^0.141.0",
     "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "esbuild": "^0.23.0"
   }
 }
